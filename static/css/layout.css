@@ -6,9 +6,14 @@
     align-items: center;
 }
 
-*/ Example Grid layout */
+ /* Grid layout */
 .grid-container {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 10fr 10fr;
     gap: 20px;
 }
+
+.body {
+    background-color: #f0f0f0; /* Change to the desired color */
+}
+

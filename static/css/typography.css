@@ -1,13 +1,16 @@
 /* typography.css */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 17px;
+    font-size: 60px;
     line-height: 1.8;
 }
 
-h1,h2,h3,h4 {
+h1{
     font-weight: bolder;
-    color: #323
+    color: #323;
+    font-size: 5vw; /* Set font size relative to viewport width */
+    text-align: center;
+
 }
 
 
