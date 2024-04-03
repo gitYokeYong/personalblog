@@ -1,0 +1,14 @@
+/*layout.css*/
+/*Example Flexbox layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+*/ Example Grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+}
