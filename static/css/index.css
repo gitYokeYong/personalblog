@@ -1,0 +1,73 @@
+.directory-bar {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: right; /* Align the text to the right */
+    
+}
+
+.directory-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    word-spacing: 50px; /* Adjust the value as needed */
+
+}
+
+.directory-bar ul li {
+    display: inline;
+    word-spacing: 1px; /* Adjust the value as needed */
+}
+
+.directory-bar ul li a {
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+    padding: 5px;
+}
+
+.directory-bar ul li a:hover {
+    background-color: #12e154;
+}
+
+
+.h1 {background-color: #f0f0f0;} /* Change to the same color as background */
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px; /* Adjust the value as needed */
+    }
+
+
+
+.topimage {
+    display: flex;
+}
+
+
+
+.secondimage img {
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+/* Footer */
+footer p {
+    display: flex;
+    justify-content: space-between; /* Distributes space between flex items */      
+    }
+
+
+/* Subscribe */
+.subscribe {
+    text-align: right; /* Align the text to the right */
+
+
+}

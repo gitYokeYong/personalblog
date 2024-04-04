@@ -1,0 +1,22 @@
+
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Ensures that the rounded corners don't get cut off */
+  }
+  
+  .image-container {
+    flex: 1; /* Take up half of the card's width */
+  }
+  
+  .image-container img {
+    width: 100%; /* Make the image fill the container */
+    display: block; /* Ensures the image doesn't create any extra spacing */
+  }
+  
+  .content {
+    flex: 1; /* Take up the other half of the card's width */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
