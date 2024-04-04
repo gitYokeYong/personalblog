@@ -1,22 +1,44 @@
-
 .card {
-    display: flex;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden; /* Ensures that the rounded corners don't get cut off */
-  }
-  
-  .image-container {
-    flex: 1; /* Take up half of the card's width */
-  }
-  
-  .image-container img {
-    width: 100%; /* Make the image fill the container */
-    display: block; /* Ensures the image doesn't create any extra spacing */
-  }
-  
-  .content {
-    flex: 1; /* Take up the other half of the card's width */
-    padding: 20px; /* Adjust padding as needed */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

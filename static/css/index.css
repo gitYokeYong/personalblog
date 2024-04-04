@@ -34,28 +34,24 @@
 
 
 .image {
-    display: block;
+    position: relative;
     width: 100%;
-    height: auto;
-    margin-bottom: 40px; /* Adjust the value as needed */
-    }
-
-
-
-.topimage {
-    display: flex;
+    height: 100vh; /* Make the image container take the full height of the viewport */
 }
 
-
-
-.secondimage img {
-    width: 100%;
-    display: block;
+.top-image,
+.bottom-image {
+    position: absolute;
+    width: 100%; /* Make the images take the full width of the container */
 }
 
+.top-image {
+    top: 0; /* Position the top image at the top of the container */
+}
 
-
-
+.bottom-image {
+    bottom: 0; /* Position the bottom image at the bottom of the container */
+}
 
 
 /* Footer */
