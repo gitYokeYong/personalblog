@@ -2,7 +2,7 @@
 @import url('index.css');
 @import url('layout.css');
 @import url('typography.css');
-@import url(aboutme.css);
-@import url(blog-post.css);
+@import url('aboutme.css');
+@import url('blog-post.css');
 
 /* Other global styles */

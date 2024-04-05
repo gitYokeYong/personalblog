@@ -39,11 +39,6 @@
     height: 100vh; /* Make the image container take the full height of the viewport */
 }
 
-.top-image,
-.bottom-image {
-    position: absolute;
-    width: 100%; /* Make the images take the full width of the container */
-}
 
 .top-image {
     top: 0; /* Position the top image at the top of the container */
