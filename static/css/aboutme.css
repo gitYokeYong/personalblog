@@ -4,26 +4,34 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
+}
 
-  .card:hover {
+.card:hover {
     transform: translateY(-5px);
-  }
-  
+}
 
-  
-
-  .image-container1 img {
-    flex:1;
-    max-width: 50%; /* Make the image fill the container */
+.image-container {
+    flex: 1; /* Take up half of the card's width */
+    max-width: 50%; /* Ensure the image doesn't overflow */
     overflow: hidden;
- }
+    
+}
 
-  
-  .image-container2 img {
+.image-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.content {
     flex: 1; /* Take up the other half of the card's width */
+    max-width: 50%; /* Ensure the content doesn't overflow */
     padding: 10px;
     overflow: hidden;
-  }
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: flex-start; /* Align elements to the start (left) */
+}
   

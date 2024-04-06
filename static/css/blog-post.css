@@ -1,5 +1,5 @@
 .card {
-    display: flex;
+    display: block;
     flex-direction: column;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -21,11 +21,36 @@
     padding: 20px;
   }
   
-  h2 {
-    margin-top: 0;
-  }
-  
   p {
     margin-bottom: 20px;
   }
-  
+
+
+ /* CSS for social sharing icons */
+.social-sharing {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons a img {
+    width: 40px; /* Adjust icon size as needed */
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2); /* Scale up icon on hover */
+}

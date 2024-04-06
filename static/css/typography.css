@@ -17,8 +17,22 @@ h1{
 }
 
 
+h2 {
+    margin-top: 0;
+    font-size: 40 px; 
+    color: #222623;  /* Color 2 */
+  }
+
+
+  h3 {
+    margin-top: 0;
+    color: #12e154;   /* Color 3 */
+  }
+
+
+
 p{
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 10px;
   text-decoration:italic; /* Italicize paragraph text */
   color: #666; /* Color 2 */
