@@ -6,6 +6,16 @@ body {
     
 }
 
+button2 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 100px;
+    line-height: 1.0;
+  }
+
+
+
+
+
 h1{
     font-weight: bolder;
     color: #323; /* Color 1 */
