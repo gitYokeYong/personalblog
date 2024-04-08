@@ -1,62 +1,68 @@
 /* typography.css */
 body {
-    font-family: "Roboto Mono", monospace;
-    font-size: 10px;
-    line-height: 1.8;
-    
+  font-family: "Roboto Mono", monospace;
+  font-size: 10px;
+  line-height: 1.8;
+
 }
 
+
 button2 {
-    font-family: "Roboto Mono", monospace;
-    font-size: 100px;
-    line-height: 1.0;
-  }
+  font-family: "Roboto Mono", monospace;
+  font-size: 100px;
+  line-height: 1.0;
+}
 
 
-
-
-
-h1{
-    font-weight: bolder;
-    color: #323; /* Color 1 */
-    font-size: 5vw; /* Set font size relative to viewport width */
-    text-align: center;
-    margin-top: 2px;
-    margin-bottom: 2px; /* Adjust the value as needed  */
+h1 {
+  font-weight: bolder;
+  color: #323;
+  /* Color 1 */
+  font-size: 5vw;
+  /* Set font size relative to viewport width */
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  /* Adjust the value as needed  */
 
 }
 
 
 h2 {
-    margin-top: 0;
-    font-size: 40 px; 
-    color: #222623;  /* Color 2 */
-  }
-
-
-  h3 {
-    margin-top: 0;
-    color: #12e154;   /* Color 3 */
-  }
-
-
-
-p{
-  font-weight: bold;
-  font-size: 10px;
-  text-decoration:italic; /* Italicize paragraph text */
-  color: #666; /* Color 2 */
+  margin-top: 0;
+  font-size: 40 px;
+  color: #222623;
+  /* Color 2 */
 }
 
 
+h3 {
+  margin-top: 0;
+  color: #12e154;
+  /* Color 3 */
+}
+
+
+p {
+  font-weight: bold;
+  font-size: 10px;
+  text-decoration: italic;
+  /* Italicize paragraph text */
+  color: #666;
+  /* Color 2 */
+}
 
 
 /* Additional color for links */
 a {
-    color: #009688; /* Color 3 */
-    text-decoration: none; /* Remove default underline */
+  color: #009688;
+  /* Color 3 */
+  text-decoration: none;
+  /* Remove default underline */
 }
 
+
 a:hover {
-    text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
+  /* Add underline on hover */
 }
