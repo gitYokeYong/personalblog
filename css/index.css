@@ -37,7 +37,7 @@
 }
 /* Ensure all content is displayed within the viewport */
 body, html {
-    margin: 0;
+    margin: auto;
     padding: 0;
     height: 100%;
 }
@@ -52,6 +52,7 @@ body, html {
 
 /* Styles for top image */
 .top-image {
+    margin-top: 20px;
     max-width: 100%;
     height: auto;
     display: flex;
@@ -84,6 +85,8 @@ body, html {
 
 .button2 {
     text-decoration: underline;
+    margin-top: 0;
+    text-align: center;
     margin-top: 20px;
 }
 
