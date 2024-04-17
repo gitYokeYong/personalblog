@@ -1,0 +1,100 @@
+.directory-bar {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: right;
+    /* Align the text to the right */
+
+}
+
+
+.directory-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    word-spacing: 50px;
+    /* Adjust the value as needed */
+
+}
+
+
+.directory-bar ul li {
+    display: inline;
+    word-spacing: 1px;
+    /* Adjust the value as needed */
+}
+
+
+.directory-bar ul li a {
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+    padding: 5px;
+}
+
+
+.directory-bar ul li a:hover {
+    background-color: #12e154;
+}
+/* Ensure all content is displayed within the viewport */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Styles for top image */
+.top-image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-image img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for card containing bottom image and button */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%; /* Responsive max-width */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+/* Styles for bottom image */
+.bottom-image img {
+    max-width: 100%; /* Responsive max-width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.button2 {
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+/* Responsive styles using media queries */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .card {
+        max-width: 80%; /* Example: reduce max-width for smaller screens */
+    }
+
+    .button2 {
+        margin-right: 20px; /* Example: adjust margin for smaller screens */
+    }
+}

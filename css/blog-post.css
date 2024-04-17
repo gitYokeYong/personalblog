@@ -1,11 +1,29 @@
+
+/* Container styles */
+.container {
+  display:-ms-flexbox;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Add padding for space around the content */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Styles for card */
 .card {
-  display: block;
-  flex-direction: column;
+  width: 100%; /* Responsive width for the card */
+  max-width: 1600px; /* Maximum width for the card */
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 
