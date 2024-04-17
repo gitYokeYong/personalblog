@@ -83,11 +83,32 @@ body, html {
     height: auto; /* Maintain aspect ratio */
 }
 
-.button2 {
-    text-decoration: underline;
-    margin-top: 0;
+
+.ul{
+    margin-left: 2000px;
     text-align: center;
-    margin-top: 20px;
+
+}
+
+
+
+
+.read-more-button {
+    display: block;
+    margin-left: 90px;
+    width: 150px; /* Adjust width as needed */
+    padding: 10px;
+    text-align: center;
+    margin: 10 auto; /* Center horizontally */
+    background-color: #72db87; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.read-more-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
 }
 
 /* Responsive styles using media queries */

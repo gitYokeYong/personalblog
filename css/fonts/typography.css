@@ -7,13 +7,6 @@ body {
 }
 
 
-button2 {
-  font-family: "Roboto Mono", monospace;
-  font-size: 100px;
-  line-height: 1.0;
-}
-
-
 h1 {
   font-weight: bolder;
   color: #323;
@@ -44,9 +37,10 @@ h3 {
 
 
 h4 {
+  font-weight: bolder;
+  font-size: 2vw;
   margin-top: 0;
   text-align: center;
-  size: 100 px;
   color: #36c664;
   /* Color 4 */
 }
