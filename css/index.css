@@ -35,6 +35,8 @@
 .directory-bar ul li a:hover {
     background-color: #12e154;
 }
+
+
 /* Ensure all content is displayed within the viewport */
 body, html {
     margin: auto;
@@ -44,15 +46,16 @@ body, html {
 
 /* Container styles */
 .container {
-    display: flex;
+    display: Block;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 /* Styles for top image */
 .top-image {
-    margin-top: 20px;
+    width: 100%;
     max-width: 100%;
     height: auto;
     display: flex;
@@ -63,18 +66,7 @@ body, html {
 .top-image img {
     max-width: 100%; /* Ensure image does not exceed container width */
     height: auto; /* Maintain aspect ratio */
-}
-
-/* Styles for card containing bottom image and button */
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 90%; /* Responsive max-width */
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
+   
 }
 
 /* Styles for bottom image */
@@ -84,41 +76,47 @@ body, html {
 }
 
 
-.ul{
-    margin-left: 2000px;
-    text-align: center;
 
+.card-aboutme-content {
+    text-align: left; /* Align content to the left */
+    padding: 20px; /* Add padding for spacing */
+    max-width: 80%; /* Responsive max-width */
+    margin: 0 auto; /* Center horizontally */
 }
 
+.card-aboutme-content h4 {
+    color: #36c664; /* Green color for titles */
+    font-size: 20px; /* Font size for titles */
+}
 
-
+.card-aboutme-content p {
+    margin: 10px 0; /* Add margin to separate paragraphs */
+}
 
 .read-more-button {
-    display: block;
-    margin-left: 90px;
-    width: 150px; /* Adjust width as needed */
-    padding: 10px;
-    text-align: center;
-    margin: 10 auto; /* Center horizontally */
+    display: inline-block; /* Display button inline */
+    padding: 1px 2px; /* Padding for button */
     background-color: #72db87; /* Button background color */
     color: #fff; /* Button text color */
-    text-decoration: none;
-    border-radius: 10px;
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 2px; /* Add border radius for rounded button */
     transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
 .read-more-button:hover {
-    background-color: #0056b3; /* Darker color on hover */
+    background-color: #5cbf6b; /* Darker background color on hover */
 }
+
+
 
 /* Responsive styles using media queries */
 @media (max-width: 768px) {
     /* Adjust styles for smaller screens */
-    .card {
-        max-width: 80%; /* Example: reduce max-width for smaller screens */
+    .card3 {
+        max-width: 80%; /*  reduce max-width for smaller screens */
     }
 
     .button2 {
-        margin-right: 20px; /* Example: adjust margin for smaller screens */
+        margin-right: 20px; /*  adjust margin for smaller screens */
     }
 }

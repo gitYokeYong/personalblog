@@ -1,84 +1,70 @@
-
-/* Container styles */
 .container {
-  display:-ms-flexbox;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
-  padding: 20px; /* Add padding for space around the content */
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 800px) 1fr; /* Three columns: 1fr for left gap, centered content up to 800px, 1fr for right gap */
+  gap: 20px; /* Spacing between cards */
 }
 
-/* Styles for card */
-.card {
-  width: 100%; /* Responsive width for the card */
-  max-width: 1600px; /* Maximum width for the card */
+.card,
+.card2 {
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
   box-sizing: border-box;
+  width: 100%; /* Ensure cards take full width of their container */
 }
 
 
-.card:hover {
-  transform: translateY(-5px);
-}
 
-
-.card img {
+.card img,
+.card2 img {
   width: 100%;
   height: auto;
+  display: block;
 }
-
 
 .content {
   padding: 20px;
+  border-top: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 20px minmax(auto, 700px) 20px; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 10px minmax(auto, 100%) 10px; /* Adjust for even smaller screens */
+  }
 }
 
 
-p {
-  margin-bottom: 20px;
-}
-
-
-/* CSS for social sharing icons */
 .social-sharing {
   margin-top: 20px;
   padding: 10px;
   background-color: #f8f8f8;
   border: 1px solid #ddd;
-}
-
-
-.social-icons {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-
 
 .social-icons a {
   display: inline-block;
   margin: 0 10px;
 }
 
-
 .social-icons a img {
   width: 40px;
-  /* Adjust icon size as needed */
   height: 40px;
   transition: transform 0.3s ease;
 }
 
-
 .social-icons a:hover img {
   transform: scale(1.2);
-  /* Scale up icon on hover */
 }

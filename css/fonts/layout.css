@@ -1,20 +1,25 @@
-/*layout.css*/
-/* Flexbox layout */
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
- /* Grid layout */
-.grid-container {
+/* Main Grid-based layout */
+.main-grid {
     display: grid;
-    grid-template-columns: 10fr 10fr;
-    gap: 20px;
+    grid-template-columns: 2fr 1fr; /* Two columns: main content occupies 2 parts, sidebar occupies 1 part */
+    gap: 20px; /* Gap between grid items */
+}
+
+/* Additional styling for main content in the main grid layout */
+.main-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
 }
 
 
+.card-wrapper,
+.card2-wrapper {
+  grid-column: 2; /* Centered column for cards */
+}
 
 
-
+.card2 {
+    grid-column: 3; /* Position card2 in the third column (right side) */
+  }
+  

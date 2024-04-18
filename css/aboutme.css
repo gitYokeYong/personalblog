@@ -9,7 +9,7 @@ body, html {
 }
 
 /* Container styles */
-.container {
+.container2 {
     display: block;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@ body, html {
 }
 
 /* Styles for top image */
-.image {
+.image2 {
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -29,7 +29,7 @@ body, html {
     align-items: center;
 }
 
-.image img {
+.image2 img {
     width: 100%; /* Ensure image does not exceed container width */
     height: auto; /* Maintain aspect ratio */
 }

@@ -23,7 +23,8 @@ h1 {
 
 h2 {
   margin-top: 0;
-  font-size: 40 px;
+  font-weight: bolder;
+  font-size: 100 px;
   color: #222623;
   /* Color 2 */
 }
@@ -31,24 +32,34 @@ h2 {
 
 h3 {
   margin-top: 0;
-  color: #12e154;
+  color: #4cb36d;
   /* Color 3 */
 }
 
 
 h4 {
-  font-weight: bolder;
-  font-size: 2vw;
+  font-weight: bold;
+  font-size: 1vw;
   margin-top: 0;
-  text-align: center;
-  color: #36c664;
+  text-align: left;
+  color:  #4cb36d;
   /* Color 4 */
 }
 
 
 
+figcaption {
+  display: block;
+  font-size: 1vw;
+  color:#666;
+  margin-left: 450px;
+
+}
+
+
+
 p {
-  font-weight: bold;
+  font-weight:300;
   font-size: 10px;
   text-decoration: italic;
   /* Italicize paragraph text */
