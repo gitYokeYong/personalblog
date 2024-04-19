@@ -24,12 +24,15 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1px; /* Adjust margin to reduce space above the image */
+  margin-bottom: 1px; /* Adjust margin to reduce space below the image */
 }
 
 .image2 img {
   width: 100%; /* Ensure image does not exceed container width */
   height: auto; /* Maintain aspect ratio */
 }
+
 
 /* Card styles */
 .card-aboutme {
